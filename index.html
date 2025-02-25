@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Hipotecaria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://live.zwidgets.com/js-sdk/1.0.5/ZohoEmbededAppSDK.min.js"></script>
+</head>
+<body>
+    <h3>🏠 Calculadora Cuota Hipotecaria</h3>
+
+    <div class="container">
+        <label>Valor del Inmueble:</label>
+        <input type="number" id="valorInmueble" placeholder="Valor del Inmueble">
+
+        <label>Cuota Inicial (%):</label>
+        <input type="number" id="cuotaInicial" placeholder="Ej: 20">
+
+        <label>Tasa de Interés Anual (%):</label>
+        <input type="number" id="tasaInteres" placeholder="Ej: 12">
+
+        <label>Plazo (años):</label>
+        <input type="number" id="plazo" placeholder="Ej: 15">
+
+        <button id="calcular">Calcular Cuota</button>
+
+        <h4 id="resultado"></h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
